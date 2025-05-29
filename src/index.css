@@ -13,3 +13,9 @@
     background-color: black;
   }
 }
+
+div.scroll-container {
+  overflow: auto;
+  white-space: nowrap;
+  padding: 10px;
+}

@@ -3,6 +3,7 @@ import './index.css'
 function CustomHeader() {
 
   return (
+    <div>
       <header className="sticky top-0 text-white shadow-md">
         <nav className="container mx-auto flex justify-center py-5">
           <ul className="flex space-x-12 text-xl">
@@ -13,6 +14,7 @@ function CustomHeader() {
           </ul>
         </nav>
       </header>
+    </div>
   )
 }
 
