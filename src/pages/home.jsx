@@ -19,17 +19,15 @@ function HomePage() {
     };
 
     return (
-        <div class="flex justify-center">
-            <div class="flex relative m-auto">
-                <button class="text-white" onClick={() => prevPhotoIndex()}>Prev</button>
+        <div className="flex w-full h-[60vh]">
+            <div className="flex w-[12.5%] justify-center">
+                <button className="text-white" onClick={() => prevPhotoIndex()}>Prev</button>
             </div>
-            <div class="place-items-center w-5/6">
-                <div class="">
-                    <img src={PhotoList[photoIndex]} class="object-contain"></img>
-                </div>
+            <div className="w-[75%] flex justify-center">
+                    <img src={PhotoList[photoIndex]} alt="The Band" className="max-h-[80vh] object-contain"></img>
             </div>
-            <div class="flex relative m-auto">
-                <button class="text-white" onClick={() => nextPhotoIndex()}>Next</button>
+            <div className="flex w-[12.5%] justify-center">
+                <button className="text-white" onClick={() => nextPhotoIndex()}>Next</button>
             </div>
         </div>
     );
