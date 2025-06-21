@@ -44,26 +44,25 @@ function HomePage() {
         <div className="flex flex-col w-full items-center text-white mt-5">
             <p className="font-extrabold text-4xl mb-2">Upcoming Shows</p>
 
-            <div className="w-[66%] border-t-2 border-b-2 flex">
+            <div className="w-full border-t-2 border-b-2 flex">
                 <div className="w-[50%]">
-                    <p className="text-2xl mt-5">Howard's Bookstore</p>
-                    <p className="text-l mb-5 italic">25 Main St, Torrington CT</p>
+                    <p className="text-2xl mt-5 text-center">Howard's Bookstore</p>
+                    <p className="text-l mb-5 italic text-center">25 Main St, Torrington CT</p>
                 </div> 
                 <div className="w-[50%]">
-                    <p className="text-2xl mt-5 mb-5">June 27th</p>
+                    <p className="text-2xl mt-5 mb-5 text-center">June 27th</p>
                 </div>
             </div>
 
-            <div className="w-[66%] border-t-2 border-b-2 flex">
+            <div className="w-full border-t-2 border-b-2 flex">
                 <div className="w-[50%]">
-                    <p className="text-2xl mt-5">The Nook</p>
-                    <p className="text-l mb-5 italic">8 Franklin St, Westifeld MA</p>
+                    <p className="text-2xl mt-5 text-center">The Nook</p>
+                    <p className="text-l mb-5 italic text-center">8 Franklin St, Westfield MA</p>
                 </div> 
                 <div className="w-[50%]">
-                    <p className="text-2xl mt-5 mb-5">June 6th</p>
+                    <p className="text-2xl mt-5 mb-5 text-center">June 6th</p>
                 </div>
             </div>
-
         </div>
 
 
