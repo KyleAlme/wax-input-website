@@ -8,7 +8,7 @@ function changePhotoIndex(index, direction, length) {
 function HomePage() {
     const [photoIndex, setPhotoIndex] = useState(0);
 
-    const PhotoList = ["BandPhoto2.jpg", "BandPhoto3.jpg", "BandPhoto4.jpg"];
+    const PhotoList = ["BandPhoto3.jpg", "BandPhoto4.jpg", "BandPhoto5.jpg", "SeanKen.jpg", "ColinDis.jpg"];
 
     const nextPhotoIndex = () => {
         setPhotoIndex(prev => changePhotoIndex(prev, 1, PhotoList.length));
