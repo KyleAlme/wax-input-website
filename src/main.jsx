@@ -5,6 +5,7 @@ import './index.css'
 import CustomHeader from './Header.jsx'
 import HomePage from './pages/home.jsx'
 import MerchPage from './pages/merch.jsx'
+import Gallery from './pages/gallery.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -13,6 +14,7 @@ createRoot(document.getElementById('root')).render(
       <Routes>
         <Route path="/" element={<HomePage />} />
         <Route path="/merch" element={<MerchPage />} />
+        <Route path="/gallery" element={<Gallery />} />
       </Routes>
     </BrowserRouter>
   </StrictMode>,
