@@ -35,6 +35,25 @@ function Gallery() {
             </div>
         </div>   
 
+        <div className="w-full flex h-[50vh]">
+            <div className="w-[50%] h-[50vh] flex justify-center my-auto mx-2">
+                <img src="SeanKen2.jpg" className="object-contain"></img>
+            </div>
+
+            <div className="w-[50%] h-[50vh] flex justify-center my-auto mx-2">
+                <img src="ColinDis2.jpg" className="object-contain"></img>
+            </div>
+        </div>  
+
+        <div className="w-full flex h-[50vh]">
+            <div className="w-[50%] h-[50vh] flex justify-center my-4 mx-2">
+                <img src="ColinDis3.jpg" className="object-contain"></img>
+            </div>
+
+            <div className="w-[50%] h-[50vh] flex justify-center my-4 mx-2">
+            </div>
+        </div>         
+
         </>
     );
 
