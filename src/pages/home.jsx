@@ -34,13 +34,13 @@ function HomePage() {
     return (
         <>
         <div className="flex w-full h-[60vh]">
-            <div className="flex w-[12.5%] justify-center">
+            <div className="flex w-[12.5%] justify-center items-center">
                 <button className="text-white" onClick={() => prevPhotoIndex()}>Prev</button>
             </div>
             <div className="w-[75%] flex justify-center">
                 <img src={PhotoList[photoIndex]} alt="The Band" className="max-h-[80vh] object-contain"></img>
             </div>
-            <div className="flex w-[12.5%] justify-center">
+            <div className="flex w-[12.5%] justify-center items-center">
                 <button className="text-white" onClick={() => nextPhotoIndex()}>Next</button>
             </div>
         </div>
