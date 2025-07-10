@@ -9,7 +9,7 @@ function CustomHeader() {
         <nav className="container mx-auto flex justify-center py-5">
           <ul className="flex space-x-8 text-xl sm:space-x-20">
             <li>
-              <Link to="/home" className="hover:text-red-600 inline-block transform hover:scale-125 transition-transform">
+              <Link to="/" className="hover:text-red-600 inline-block transform hover:scale-125 transition-transform">
                 Home
               </Link>
             </li>
@@ -19,7 +19,7 @@ function CustomHeader() {
               </Link>
             </li>
             <li>
-              <HashLink smooth to="/home/#show-section" className="hover:text-red-600 inline-block transform hover:scale-125 transition-transform">
+              <HashLink smooth to="/#show-section" className="hover:text-red-600 inline-block transform hover:scale-125 transition-transform">
                 Shows
               </HashLink>
             </li>

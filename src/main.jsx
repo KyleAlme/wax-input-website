@@ -12,7 +12,7 @@ createRoot(document.getElementById('root')).render(
     <BrowserRouter basename="/wax-input-website/">
       <CustomHeader />
       <Routes>
-        <Route path="/home" element={<HomePage />} />
+        <Route path="/" element={<HomePage />} />
         <Route path="/merch" element={<MerchPage />} />
         <Route path="/gallery" element={<Gallery />} />
       </Routes>
