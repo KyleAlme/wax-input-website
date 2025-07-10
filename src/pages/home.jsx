@@ -1,5 +1,18 @@
 import '../index.css';
 import React, { useState } from 'react';
+import Bandphoto3 from '../../public/BandPhoto3.jpg'
+import Bandphoto4 from '../../public/BandPhoto4.jpg'
+import Bandphoto5 from '../../public/BandPhoto5.jpg'
+import SeanKenPhoto from '../../public/SeanKen.jpg'
+import ColinDisPhoto from '../../public/ColinDis.jpg'
+import YoutubeLogo from '../../public/YoutubeLogo.svg'
+import AppleLogo from '../../public/AppleLogo.svg'
+import InstagramLogo from '../../public/InstagramLogo.svg'
+import SoundCloudLogo from '../../public/SoundcloudLogo.svg'
+import SpotifyLogo from '../../public/SpotifyLogo.png'
+
+
+
 
 function changePhotoIndex(index, direction, length) {
     return ((index + direction + length) % length)
@@ -8,7 +21,7 @@ function changePhotoIndex(index, direction, length) {
 function HomePage() {
     const [photoIndex, setPhotoIndex] = useState(0);
 
-    const PhotoList = ["BandPhoto3.jpg", "BandPhoto4.jpg", "BandPhoto5.jpg", "SeanKen.jpg", "ColinDis.jpg"];
+    const PhotoList = [Bandphoto3, Bandphoto4, Bandphoto5.jpg, SeanKenPhoto, ColinDisPhoto];
 
     const nextPhotoIndex = () => {
         setPhotoIndex(prev => changePhotoIndex(prev, 1, PhotoList.length));
@@ -41,7 +54,7 @@ function HomePage() {
             </p>
         </div>  
 
-        <div className="flex flex-col w-full items-center text-white mt-5">
+        <div className="flex flex-col w-full items-center text-white mt-5" id="show-section">
             <p className="font-extrabold text-4xl mb-2">Upcoming Shows</p>
 
             <div className="w-full border-t-2 border-b-2 flex">
@@ -69,19 +82,19 @@ function HomePage() {
             <p className="bg-inherit text-black font-black text-lg text-center">Where To Find Wax Input:</p>
             <div className="bg-inherit flex justify-center gap-x-8 py-2">
                 <a href="https://open.spotify.com/artist/6mUhaPUPQGzNWuwxHZKEpH">
-                    <img src="SpotifyLogo.png" className="h-8 object-contain bg-white"></img>
+                    <img src={SpotifyLogo} className="h-8 object-contain bg-white"></img>
                 </a>
                 <a href="https://soundcloud.com/wax-input">
-                    <img src="SoundcloudLogo.svg" className="h-8 object-contain bg-white"></img>
+                    <img src={SoundCloudLogo} className="h-8 object-contain bg-white"></img>
                 </a>
                 <a href="https://www.instagram.com/wax.input/">
-                    <img src="InstagramLogo.svg" className="h-8 object-contain bg-white"></img>
+                    <img src={InstagramLogo} className="h-8 object-contain bg-white"></img>
                 </a>
                 <a href="https://music.apple.com/us/artist/wax-input/1705341034">
-                    <img src="AppleLogo.svg" className="h-8 object-contain bg-white"></img>
+                    <img src={AppleLogo} className="h-8 object-contain bg-white"></img>
                 </a>
                 <a href="https://www.youtube.com/@WaxInput">
-                    <img src="YoutubeLogo.svg" className="h-8 object-contain bg-white"></img>
+                    <img src={YoutubeLogo} className="h-8 object-contain bg-white"></img>
                 </a>
             </div>
         </div>
