@@ -9,22 +9,22 @@ function CustomHeader() {
         <nav className="container mx-auto flex justify-center py-5">
           <ul className="flex space-x-8 text-xl sm:space-x-20">
             <li>
-              <Link to="/" className="hover:text-red-600 inline-block transform hover:scale-125 transition-transform">
+              <Link to="/" className="[@media(hover:hover)]:hover:text-red-600 [@media(hover:hover)]:hover:scale-125 active:text-red-600 active:scale-125 inline-block transform transition-transform">
                 Home
               </Link>
             </li>
             <li>
-              <Link to="/gallery" className="hover:text-red-600 inline-block transform hover:scale-125 transition-transform">
+              <Link to="/gallery" className="[@media(hover:hover)]:hover:text-red-600 [@media(hover:hover)]:hover:scale-125 active:text-red-600 active:scale-125 inline-block transform transition-transform">
                 Gallery
               </Link>
             </li>
             <li>
-              <HashLink smooth to="/#show-section" className="hover:text-red-600 inline-block transform hover:scale-125 transition-transform">
+              <HashLink smooth to="/#show-section" className="[@media(hover:hover)]:hover:text-red-600 [@media(hover:hover)]:hover:scale-125 active:text-red-600 active:scale-125 inline-block transform transition-transform">
                 Shows
               </HashLink>
             </li>
             <li>
-              <Link to="/merch" className="hover:text-red-600 inline-block transform hover:scale-125 transition-transform">
+              <Link to="/merch" className="[@media(hover:hover)]:hover:text-red-600 [@media(hover:hover)]:hover:scale-125 active:text-red-600 active:scale-125 inline-block transform transition-transform">
                 Merch
               </Link>
             </li>
