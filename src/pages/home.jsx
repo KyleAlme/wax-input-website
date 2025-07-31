@@ -81,7 +81,7 @@ function HomePage() {
         <div className="flex flex-col w-full items-center text-white mt-16" id="show-section">
             <p className="font-extrabold text-4xl mb-2 md:mt-5 md:text-5xl">Upcoming Shows</p>
 
-            <div className="w-full border-t-2 border-b-2 flex">
+            <div className="w-[90%] border-t-2 border-stone-900 flex mt-5">
                 <div className="w-[50%]">
                     <p className="text-2xl mt-5 text-center">Howard's Bookstore</p>
                     <p className="text-l mb-5 italic text-center">25 Main St, Torrington CT</p>
@@ -91,7 +91,7 @@ function HomePage() {
                 </div>
             </div>
 
-            <div className="w-full border-t-2 border-b-2 flex">
+            <div className="w-[90%] border-t-2 border-stone-900 flex">
                 <div className="w-[50%]">
                     <p className="text-2xl mt-5 text-center">The Nook</p>
                     <p className="text-l mb-5 italic text-center">8 Franklin St, Westfield MA</p>
