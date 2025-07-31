@@ -34,23 +34,33 @@ function HomePage() {
 
     return (
         <>
-        <div className="flex w-full h-[60vh]">
-            <div className="flex w-[12.5%] justify-center items-center">
-                <button className="text-white" onClick={() => prevPhotoIndex()}>Prev</button>
-            </div>
-            <div className="w-[75%] flex justify-center">
-                <img src={PhotoList[photoIndex]} alt="The Band" className="max-h-[80vh] object-contain"></img>
-            </div>
-            <div className="flex w-[12.5%] justify-center items-center">
-                <button className="text-white" onClick={() => nextPhotoIndex()}>Next</button>
-            </div>
+        <div className="flex justify-center items-center h-[40vh] space-x-2 md:h-[60vh]">
+            <img
+                src={PhotoList[changePhotoIndex(photoIndex, -1, PhotoList.length)]}
+                alt="Previous"
+                onClick={() => prevPhotoIndex()}
+                className="w-[20%] max-h-full object-contain opacity-50 hover:opacity-70 transition cursor-pointer transform hover:scale-105"
+            />
+
+            <img
+                src={PhotoList[photoIndex]}
+                alt="Current"
+                className="w-[50%] max-h-full object-contain shadow-lg transition-all duration-300"
+            />
+
+            <img
+                src={PhotoList[changePhotoIndex(photoIndex, 1, PhotoList.length)]}
+                alt="Next"
+                onClick={() => nextPhotoIndex()}
+                className="w-[20%] max-h-full object-contain opacity-50 hover:opacity-70 transition cursor-pointer transform hover:scale-105"
+            />
         </div>
 
-        <div className="flex flex-col w-full items-center text-white mt-5">
-            <p className="text-center w-[66%] font-extrabold text-4xl">
+        <div className="flex flex-col w-full items-center text-white mt-5 md:mt-16">
+            <p className="text-center w-[66%] font-extrabold text-4xl md:text-5xl">
                 About the Band
             </p>
-            <p className="text-center w-[66%] mt-3">Wax Input is a heavy metal, dit-core band based out of the 413, in Western Massachusetts. The bands members consist of Colin, Sean, and Brandon
+            <p className="text-center w-[66%] mt-3 md:text-xl">Wax Input is a heavy metal, dit-core band based out of the 413, in Western Massachusetts. The bands members consist of Colin, Sean, and Brandon
                 (Codename: Ditley). They are three longtime friends who formed Wax Input in 2023 to share their collective passion of heavy metal with others, and show off Ditleys rubik's cube skills.
             </p>
         </div>  
@@ -65,11 +75,11 @@ function HomePage() {
         </div>
 
         <div className='flex w-full justify-center mb-12 mt-4'>
-            <a href="https://open.spotify.com/album/4nbcRfNBeQTBxbJbsQKvsI?si=c0U0lyQaTV-ytwHYikVFqw" className='text-white underline text-2xl'>Listen now!</a>
+            <a href="https://open.spotify.com/album/4nbcRfNBeQTBxbJbsQKvsI?si=c0U0lyQaTV-ytwHYikVFqw" className='text-white underline text-2xl md:text-4xl'>Listen now!</a>
         </div>
 
         <div className="flex flex-col w-full items-center text-white mt-5" id="show-section">
-            <p className="font-extrabold text-4xl mb-2">Upcoming Shows</p>
+            <p className="font-extrabold text-4xl mb-2 md:mt-5">Upcoming Shows</p>
 
             <div className="w-full border-t-2 border-b-2 flex">
                 <div className="w-[50%]">
