@@ -34,7 +34,7 @@ function HomePage() {
 
     return (
         <>
-        <div className="flex justify-center items-center h-[40vh] space-x-2 md:h-[60vh]">
+        <div className="flex justify-center items-center h-[35vh] space-x-2 md:h-[60vh]">
             <img
                 src={PhotoList[changePhotoIndex(photoIndex, -1, PhotoList.length)]}
                 alt="Previous"
@@ -79,7 +79,7 @@ function HomePage() {
         </div>
 
         <div className="flex flex-col w-full items-center text-white mt-5" id="show-section">
-            <p className="font-extrabold text-4xl mb-2 md:mt-5">Upcoming Shows</p>
+            <p className="font-extrabold text-4xl mb-2 md:mt-5 md:text-5xl">Upcoming Shows</p>
 
             <div className="w-full border-t-2 border-b-2 flex">
                 <div className="w-[50%]">
