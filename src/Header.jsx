@@ -7,7 +7,7 @@ function CustomHeader() {
     <div>
       <header className="sticky top-0 text-white shadow-md">
         <nav className="container mx-auto flex justify-center py-5">
-          <ul className="flex space-x-8 text-xl sm:space-x-20">
+          <ul className="flex space-x-6 text-2xl sm:space-x-20">
             <li>
               <Link to="/" className="[@media(hover:hover)]:hover:text-red-600 [@media(hover:hover)]:hover:scale-125 active:text-red-600 active:scale-125 inline-block transform transition-transform">
                 Home
