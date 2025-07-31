@@ -60,7 +60,7 @@ function HomePage() {
             <p className="text-center w-[66%] font-extrabold text-4xl md:text-5xl">
                 About the Band
             </p>
-            <p className="text-center w-[66%] mt-3 md:text-xl">Wax Input is a heavy metal, dit-core band based out of the 413, in Western Massachusetts. The bands members consist of Colin, Sean, and Brandon
+            <p className="text-center w-[90%] mt-3 text-xl md:w-[66%]">Wax Input is a heavy metal, dit-core band based out of the 413, in Western Massachusetts. The bands members consist of Colin, Sean, and Brandon
                 (Codename: Ditley). They are three longtime friends who formed Wax Input in 2023 to share their collective passion of heavy metal with others, and show off Ditleys rubik's cube skills.
             </p>
         </div>  
