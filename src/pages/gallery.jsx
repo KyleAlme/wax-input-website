@@ -4,53 +4,49 @@ function Gallery() {
 
     return (
         <>
-        
-        <div className="w-full flex h-[50vh]">
-            <div className="w-[50%] flex justify-center my-auto">
+        <div className="flex flex-col md:flex-row">
+            <div className="w-[100%] md:w-[50%] flex justify-center h-[50vh]">
                 <iframe className="w-[90%] h-[40vh]" src="https://www.youtube.com/embed/6jb15K2gPgE" allowFullScreen></iframe>
             </div>
 
-            <div className="w-[50%] flex justify-center my-auto">
+            <div className="w-[100%] md:w-[50%] flex justify-center h-[50vh]">
                 <iframe className="w-[90%] h-[40vh]" src="https://www.youtube.com/embed/GfJ2y4k6rbc" allowFullScreen></iframe>
             </div>
-        </div>    
+        </div>
 
-        <div className="w-full flex h-[50vh]">
-            <div className="w-[50%] flex justify-center my-auto">
+        <div className="flex flex-col md:flex-row">
+            <div className="w-[100%] md:w-[50%] flex justify-center h-[50vh]">
                 <iframe className="w-[90%] h-[40vh]" src="https://www.youtube.com/embed/kilR67JLc3Y" allowFullScreen></iframe>
             </div>
 
-            <div className="w-[50%] flex justify-center my-auto">
+            <div className="w-[100%] md:w-[50%] flex justify-center h-[50vh]">
                 <iframe className="w-[90%] h-[40vh]" src="https://www.youtube.com/embed/E3OHHrPamRI" allowFullScreen></iframe>
             </div>
         </div>    
 
-        <div className="w-full flex h-[50vh]">
-            <div className="w-[50%] flex justify-center my-auto">
+        <div className="flex flex-col md:flex-row">
+            <div className="w-[100%] md:w-[50%] flex justify-center h-[50vh]">
                 <iframe className="w-[90%] h-[40vh]" src="https://www.youtube.com/embed/MLjRqAiLnHo" allowFullScreen></iframe>
             </div>
 
-            <div className="w-[50%] flex justify-center my-auto">
+            <div className="w-[100%] md:w-[50%] flex justify-center h-[50vh]">
                 <iframe className="w-[90%] h-[40vh] " src="https://www.youtube.com/embed/BCXdRIROOUo" allowFullScreen></iframe>
             </div>
         </div>   
 
-        <div className="w-full flex h-[50vh]">
-            <div className="w-[50%] h-[50vh] flex justify-center my-auto mx-2">
+        <div className="flex flex-col md:flex-row">
+            <div className="w-[100%] md:w-[50%] h-[50vh] flex justify-center mb-4 md:mx-2">
                 <img src="SeanKen2.jpg" className="object-contain"></img>
             </div>
 
-            <div className="w-[50%] h-[50vh] flex justify-center my-auto mx-2">
+            <div className="w-[100%] md:w-[50%] h-[50vh] flex justify-center my-4 md:mx-2">
                 <img src="ColinDis2.jpg" className="object-contain"></img>
             </div>
         </div>  
 
-        <div className="w-full flex h-[50vh]">
-            <div className="w-[50%] h-[50vh] flex justify-center my-4 mx-2">
+        <div className="flex flex-col md:flex-row">
+            <div className="w-[100%] md:w-[50%] h-[50vh] flex justify-center my-4 md:mx-2">
                 <img src="ColinDis3.jpg" className="object-contain"></img>
-            </div>
-
-            <div className="w-[50%] h-[50vh] flex justify-center my-4 mx-2">
             </div>
         </div>         
 

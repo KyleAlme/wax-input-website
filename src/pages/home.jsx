@@ -34,7 +34,7 @@ function HomePage() {
 
     return (
         <>
-        <div className="flex justify-center items-center h-[35vh] space-x-2 md:h-[60vh]">
+        <div className="flex max-sm:hidden justify-center items-center h-[35vh] space-x-2 md:h-[60vh]">
             <img
                 src={PhotoList[changePhotoIndex(photoIndex, -1, PhotoList.length)]}
                 alt="Previous"
@@ -58,7 +58,7 @@ function HomePage() {
 
         <div className="flex flex-col w-full items-center text-white mt-5 md:mt-16">
             <p className="text-center w-[66%] font-extrabold text-4xl md:text-5xl">
-                About the Band
+                Wax Input!
             </p>
             <p className="text-center w-[90%] mt-3 text-xl md:w-[66%]">Wax Input is a heavy metal, dit-core band based out of the 413, in Western Massachusetts. The bands members consist of Colin, Sean, and Brandon
                 (Codename: Ditley). They are three longtime friends who formed Wax Input in 2023 to share their collective passion of heavy metal with others, and show off Ditleys rubik's cube skills.
@@ -105,7 +105,7 @@ function HomePage() {
         <div className="h-[10vh] flex flex-col bg-white w-full">
             <p className="bg-inherit text-black font-black text-lg text-center">Where To Find Wax Input:</p>
             <div className="bg-inherit flex justify-center gap-x-8 py-2">
-                <a href="https://open.spotify.com/artist/6mUhaPUPQGzNWuwxHZKEpH">
+                <a href="spotify:track:6mUhaPUPQGzNWuwxHZKEpH" target="_blank">
                     <img src={SpotifyLogo} className="h-8 object-contain bg-white"></img>
                 </a>
                 <a href="https://soundcloud.com/wax-input">
