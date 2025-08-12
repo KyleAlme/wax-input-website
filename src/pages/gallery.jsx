@@ -1,4 +1,7 @@
 import '../index.css';
+import SeanKen2 from '../../public/SeanKen2.jpg'
+import ColinDis2 from '../../public/ColinDis2.jpg'
+import ColinDis3 from '../../public/ColinDis3.jpg'
 
 function Gallery() {
 
@@ -36,17 +39,17 @@ function Gallery() {
 
         <div className="flex flex-col md:flex-row">
             <div className="w-[100%] md:w-[50%] h-[50vh] flex justify-center mb-4 md:mx-2">
-                <img src="SeanKen2.jpg" className="object-contain"></img>
+                <img src={SeanKen2} className="object-contain"></img>
             </div>
 
             <div className="w-[100%] md:w-[50%] h-[50vh] flex justify-center my-4 md:mx-2">
-                <img src="ColinDis2.jpg" className="object-contain"></img>
+                <img src={ColinDis2} className="object-contain"></img>
             </div>
         </div>  
 
         <div className="flex flex-col md:flex-row">
             <div className="w-[100%] md:w-[50%] h-[50vh] flex justify-center my-4 md:mx-2">
-                <img src="ColinDis3.jpg" className="object-contain"></img>
+                <img src={ColinDis3} className="object-contain"></img>
             </div>
         </div>         
 
