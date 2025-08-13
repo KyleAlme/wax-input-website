@@ -9,7 +9,7 @@ import Gallery from './pages/gallery.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
-    <BrowserRouter basename="/wax-input-website/">
+    <BrowserRouter basename="/">
       <CustomHeader />
       <Routes>
         <Route path="/" element={<HomePage />} />
