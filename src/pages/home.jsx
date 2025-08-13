@@ -84,11 +84,11 @@ function HomePage() {
 
             <div className="w-[90%] border-t-2 border-stone-900 flex mt-5">
                 <div className="w-[50%]">
-                    <p className="text-2xl mt-5 text-center">Howard's Bookstore</p>
-                    <p className="text-l mb-5 italic text-center">25 Main St, Torrington CT</p>
+                    <p className="text-2xl mt-5 text-center">Nothing to see here!</p>
+                    <p className="text-l mb-5 italic text-center">Yet...</p>
                 </div> 
                 <div className="w-[50%]">
-                    <p className="text-2xl mt-5 mb-5 text-center">June 27th</p>
+                    <p className="text-2xl mt-5 mb-5 text-center">Sometime in the future.</p>
                 </div>
             </div>
         </div>
