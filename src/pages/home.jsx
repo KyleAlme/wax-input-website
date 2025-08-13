@@ -34,7 +34,21 @@ function HomePage() {
 
     return (
         <>
-        <div className="flex max-sm:hidden justify-center items-center h-[35vh] space-x-2 md:h-[60vh]">
+
+        <div className="flex flex-col w-full max-h-[90vh] items-center md:mt-8">
+            <div>
+                <p className='text-white text-4xl font-extrabold text-center'>Check out their Latest Release: "WAX THE GLASS!"</p>
+            </div>
+            <div className='flex w-[80%] justify-center'>
+                <img src={WtGAlbum} alt="Wax The Glass Album Cover" className=" mt-6 max-h-[70vh] border-2 border-gray-100"></img>
+            </div>
+        </div>
+
+        <div className='flex w-full justify-center my-4'>
+            <a href="https://open.spotify.com/album/4nbcRfNBeQTBxbJbsQKvsI?si=c0U0lyQaTV-ytwHYikVFqw" className='text-white underline text-2xl md:text-4xl'>Listen now!</a>
+        </div>
+
+        <div className="flex max-sm:hidden justify-center items-center h-[35vh] space-x-2 md:h-[60vh] md:mt-12">
             <img
                 src={PhotoList[changePhotoIndex(photoIndex, -1, PhotoList.length)]}
                 alt="Previous"
@@ -56,7 +70,7 @@ function HomePage() {
             />
         </div>
 
-        <div className="flex flex-col w-full items-center text-white mt-5 md:mt-16">
+        <div className="flex flex-col w-full items-center text-white mt-16">
             <p className="text-center w-[66%] font-extrabold text-4xl md:text-5xl">
                 Wax Input!
             </p>
@@ -64,19 +78,6 @@ function HomePage() {
                 (Codename: Ditley). They are three longtime friends who formed Wax Input in 2023 to share their collective passion of heavy metal with others, and show off Ditleys rubik's cube skills.
             </p>
         </div>  
-
-        <div className="flex flex-col w-full max-h-[90vh] items-center mt-16">
-            <div>
-                <p className='text-white text-4xl font-extrabold text-center'>Check out their Latest Release: "WAX THE GLASS!"</p>
-            </div>
-            <div className='flex w-[80%] justify-center'>
-                <img src={WtGAlbum} alt="Wax The Glass Album Cover" className=" mt-6 max-h-[70vh] border-2 border-gray-100"></img>
-            </div>
-        </div>
-
-        <div className='flex w-full justify-center mt-4'>
-            <a href="https://open.spotify.com/album/4nbcRfNBeQTBxbJbsQKvsI?si=c0U0lyQaTV-ytwHYikVFqw" className='text-white underline text-2xl md:text-4xl'>Listen now!</a>
-        </div>
 
         <div className="flex flex-col w-full items-center text-white mt-16" id="show-section">
             <p className="font-extrabold text-4xl mb-2 md:mt-5 md:text-5xl">Upcoming Shows</p>
@@ -88,16 +89,6 @@ function HomePage() {
                 </div> 
                 <div className="w-[50%]">
                     <p className="text-2xl mt-5 mb-5 text-center">June 27th</p>
-                </div>
-            </div>
-
-            <div className="w-[90%] border-t-2 border-stone-900 flex">
-                <div className="w-[50%]">
-                    <p className="text-2xl mt-5 text-center">The Nook</p>
-                    <p className="text-l mb-5 italic text-center">8 Franklin St, Westfield MA</p>
-                </div> 
-                <div className="w-[50%]">
-                    <p className="text-2xl mt-5 mb-5 text-center">June 6th</p>
                 </div>
             </div>
         </div>
