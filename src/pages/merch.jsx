@@ -3,6 +3,7 @@ import CustomHeader from '../Header.jsx';
 import DitAtWar from '../../public/DitAtWar.jpg'
 import BandPhoto2 from '../../public/BandPhoto2.jpg'
 import DitSnap from '../../public/DitSnap.jpg'
+import ColinDis3 from '../../public/ColinDis3.jpg'
 
 function MerchPage() {
 
@@ -20,6 +21,9 @@ function MerchPage() {
             </div>
             <div className="flex max-h-[75vh] w-[70%] mx-auto mt-8 mb-8">
                 <img src={DitSnap} alt="Dit Pic"className="object-contain w-full"></img>
+            </div>
+            <div className="flex max-h-[75vh] w-[70%] mx-auto mt-8 mb-8">
+                <img src={ColinDis3} alt="Dit Pic" className="object-contain w-full"></img>
             </div>
 
         <div className="h-[10vh] flex flex-col bg-white w-full mt-5">

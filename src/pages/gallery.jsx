@@ -1,7 +1,6 @@
 import '../index.css';
 import SeanKen2 from '../../public/SeanKen2.jpg'
 import ColinDis2 from '../../public/ColinDis2.jpg'
-import ColinDis3 from '../../public/ColinDis3.jpg'
 
 function Gallery() {
 
@@ -46,12 +45,6 @@ function Gallery() {
                 <img src={ColinDis2} className="object-contain"></img>
             </div>
         </div>  
-
-        <div className="flex flex-col md:flex-row">
-            <div className="w-[100%] md:w-[50%] h-[50vh] flex justify-center my-4 md:mx-2">
-                <img src={ColinDis3} className="object-contain"></img>
-            </div>
-        </div>         
 
         <div className="h-[10vh] flex flex-col bg-white w-full mt-5">
             <p className="bg-inherit text-black font-black text-lg text-center">Where To Find Wax Input:</p>
